@@ -58,18 +58,19 @@ html {
 
   .all-clear {
       color: #fff;
-      background: rgb(241,48,57);
-      background: linear-gradient(180deg, rgba(241,48,57,1) 35%, rgba(184,12,12,1) 100%);  
+      background: #f13039;
+      background: linear-gradient(180deg, rgb(233, 68, 76) 35%, rgb(179, 45, 45) 100%);  
   }
 
   .all-clear:hover {
-    background: linear-gradient(0deg, rgba(241,48,57,1) 35%, rgba(184,12,12,1) 100%);
+    
+    background: linear-gradient(180deg, rgba(241,48,57,1) 35%, rgba(184,12,12,1) 100%);
   }
 
   .equal-sign {
     color: #fff;
     background: rgb(46,34,223);
-    background: linear-gradient(0deg, rgba(46,34,223,1) 35%, rgba(91,149,255,1) 100%);
+    background: linear-gradient(0deg, rgb(73, 61, 241) 35%, rgb(130, 174, 255) 100%);
     grid-row-start: 2;
     grid-row-end: 6;
     height: 100%;
@@ -78,7 +79,7 @@ html {
   }
 
   .equal-sign:hover {
-    background: linear-gradient(180deg, rgba(46,34,223,1) 35%, rgba(91,149,255,1) 100%);
+    background: linear-gradient(0deg, rgba(46,34,223,1) 35%, rgba(91,149,255,1) 100%);
   }
 
   .calculator-keys {
